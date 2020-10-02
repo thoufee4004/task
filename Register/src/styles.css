@@ -1,0 +1,130 @@
+.span{
+    align-content: center;
+}
+.div{
+font-size:16px ;
+font-style: italic;
+}
+p{
+    text-align: left;
+    font-family: fantasy;
+}
+input{
+    
+    text-align: left;
+}
+.mat-button{
+    color: cornsilk;
+}
+
+.example-icon{
+    padding: 0 14px;
+}
+.example-spacer{
+    flex: 1 1 auto;
+}
+html, body {
+    height: 100%; 
+    background: url(imageasset.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size:cover ;
+    font-family:"fantasy";
+}
+.loginbox{
+    width: 640px;
+    height: 220px;
+    background: transrent;
+    border: #36bdcf;
+    color: #fff;
+    top:18%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+h1{
+    margin:0 ;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:22px ;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-size: 20 px;
+    color: black;
+    background-color:transparent;
+
+}
+.loginbox input{
+    color:burlywood;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"] ,input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 20px;
+    flex-direction: 0 1 1;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: darkgrey;
+    color: black;
+}
+.loginbox a{
+    border: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: blueviolet;
+    font-weight: bolder;
+}
+.loginbox a:hover{
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bolder;
+}
+.loginbox button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-family: Broadway;
+    font-weight: bold;
+    padding: 0 140px 0 130px;
+    border-radius: 50px;
+
+    
+}
+.loginbox button[type="submit"]:hover{
+    cursor: pointer;
+    background: darkgrey;
+    color: black;
+}
+.a3{
+    flex: 1 1 auto;
+}

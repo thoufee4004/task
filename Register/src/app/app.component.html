@@ -1,0 +1,22 @@
+<mat-toolbar color="blue">
+    <span> 
+          Focus ERP Export Module
+    </span>
+  </mat-toolbar>
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <a mat-menu-item routerLink="dashboard"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example home icon" >home</mat-icon>Dash board</a>
+  <a mat-menu-item><mat-icon class="example-icon" aria-hidden="false" aria-label="Example Settings icon">Settings</mat-icon>Settings</a>
+  <a mat-menu-item><mat-icon class="example-icon" aria-hidden="false" aria-label="Example Masters icon">Masters</mat-icon>Masters</a>
+  <a mat-menu-item><mat-icon class="example-icon" aria-hidden="false" aria-label="Example support icon">support</mat-icon>support</a>
+  <a mat-menu-item><mat-icon class="example-icon" aria-hidden="false" aria-label="Example home icon">CB</mat-icon>Change Branch</a>
+  <a mat-menu-item><mat-icon class="example-icon" aria-hidden="false" aria-label="Example Masters icon">CY</mat-icon>Change Year</a>
+  <a mat-menu-item routerLink="logout"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example logout icon">logout</mat-icon>Log Out</a>
+</mat-menu>
+<router-outlet></router-outlet>
+<p style="color: bisque;">
+      WELCOME ...
+  </p><br><br><br>
+  <p style="color: bisque;" routerLink="dashboard">
+      goto dashboard.
+  </p>
