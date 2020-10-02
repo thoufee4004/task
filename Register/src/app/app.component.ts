@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Task';
+  isDisplay =true;
+  show(){
+    this.isDisplay =!this.isDisplay;
+  }
 }

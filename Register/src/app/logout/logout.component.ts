@@ -11,5 +11,8 @@ export class LogoutComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  isDisplay =true;
+  show(){
+    this.isDisplay =!this.isDisplay;
+  }
 }

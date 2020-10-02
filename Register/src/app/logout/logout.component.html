@@ -1,11 +1,8 @@
-<mat-toolbar color="blue">
-    <span> 
-          Focus ERP Export Module
-    </span>
-  </mat-toolbar>
-<router-outlet></router-outlet>
+
+
 <p style="color: bisque; ">
     THANK YOU ...<br>
     LOG out..
 </p><br><br><br>
-
+<button *ngIf ="isDisplay" mat-button (click) = "show()" routerLink="dashboard">click dashboard..</button>
+<router-outlet></router-outlet>

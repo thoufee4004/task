@@ -1,4 +1,8 @@
-
+<mat-toolbar color="blue">
+  <span> 
+        Focus ERP Export Module
+  </span>
+</mat-toolbar>
 <button mat-button [matMenuTriggerFor]="menu">Menu</button>
 <mat-menu #menu="matMenu">
   <a mat-menu-item routerLink="dashboard"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example home icon" >home</mat-icon>Dash board</a>
@@ -10,9 +14,5 @@
   <a mat-menu-item routerLink="logout"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example logout icon">logout</mat-icon>Log Out</a>
 </mat-menu>
 <router-outlet></router-outlet>
-<p style="color: bisque;">
-      WELCOME ...
-  </p><br><br><br>
-  <p style="color: bisque;" routerLink="dashboard">
-      goto dashboard.
-  </p>
+
+<button *ngIf ="isDisplay" mat-button (click) = "show()" routerLink="dashboard" style="left: 400px; top: 100px;">click dashboard..</button>
